@@ -11,7 +11,7 @@ pip install --upgrade pip
 apt-get -y install build-essential curl git sudo man vim autoconf automake libtool debootstrap
 
 # install toil+cwl
-pip install toil[cwl]
+pip install toil[aws,cwl]
 
 # install sigularity
 git clone https://github.com/gmkurtzer/singularity.git
